@@ -2042,7 +2042,8 @@ if (this.discardedTerms.length > 0){
       //var scoreNr = this_L1.find( 'div > span' ) ;      
             
       var a = ( $('<a>') ).text( letterNr_short ).attr( 'href', letterNr ) ;
-    
+      //var span = $( template ).find( 'ul li ul' ) ;
+      //console.log( span[0] )
       
       tr = $('<tr>') ;
       var td1 = $('<td>') ;
