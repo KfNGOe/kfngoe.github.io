@@ -142,6 +142,7 @@
                         console.log(num) ;
                         transformSearchResultLinks() ;
                         showMaxHits() ;
+                        showMinWordLength() ;
                     } ;
                 }) ;
             </script><form accept-charset="UTF-8" id="ssForm" data-allowphrasal="yes" data-allowwildcards="yes" data-minwordlength="3" data-scrolltotextfragment="no" data-maxkwicstoshow="5" data-resultsperpage="1" onsubmit="return false;" data-versionstring="" data-ssfolder="static-search" data-kwictruncatestring="..." data-resultslimit="2000">
@@ -163,6 +164,10 @@
                         <div id="showMaxHits" style="display: none;">
                            <div class="de">Angezeigte Treffer max <span></span></div>
                            <div class="en">Displayed hits max <span></span></div>
+                        </div>
+                        <div id="showMinWordLength" style="display: none;">
+                           <div class="de">Wortlänge min <span></span></div>
+                           <div class="en">Word length min <span></span></div>
                         </div>
                         <div id="ssResults" style="display: none;"></div>
                         <div id="ssPoweredBy" style="display: none;">
@@ -463,6 +468,18 @@
                         //console.log( test ) ;
                      }) ;
                      $("div#showMaxHits").show() ;                     
+                     
+                  } ; 
+               </script>
+               <script>
+                  function showMinWordLength() {
+                     var nrShowMinWordLength = Sch.minWordLength ;
+                     
+                     $( "div#showMinWordLength span" ).each(function() {
+                        $( this ).text( nrShowMinWordLength ) ;
+                        //console.log( test ) ;
+                     }) ;
+                     $("div#showMinWordLength").show() ;                     
                      
                   } ; 
                </script>
