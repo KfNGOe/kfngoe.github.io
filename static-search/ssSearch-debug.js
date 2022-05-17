@@ -2025,9 +2025,9 @@ if (this.discardedTerms.length > 0){
     function levelOne(this_L1) {
       var tr = "" ;
       var template = "<ul>" + 
-                        "<li style='display: none;>" + 
-                          "<div class='de'>" + "Treffer gesamt" + "<span>" + "</span>" + "</div>" + 
-                          "<div class='en' style='display: none;'>" + "Total hits" + "<span>" + "</span>" + "</div>" + 
+                        "<li>" + 
+                          "<div class='de'>" + "Treffer " + "<span>" + "</span>" + "</div>" + 
+                          "<div class='en' style='display: none;'>" + "Hits " + "<span>" + "</span>" + "</div>" + 
                         "</li>" + 
                         "<li>" + "Text" + "</li>" + 
                         "<li>" + 
@@ -2039,11 +2039,9 @@ if (this.discardedTerms.length > 0){
       var n_index = letterNr.indexOf(".") ;
       var letterNr_short = letterNr.substring(0, n_index) ;
 
-      //var scoreNr = this_L1.find( 'div > span' ) ;      
+      var scoreNr = this_L1.find( 'div > span' ).text().substr(7) ;      
             
       var a = ( $('<a>') ).text( letterNr_short ).attr( 'href', letterNr ) ;
-      //var span = $( template ).find( 'ul li ul' ) ;
-      //console.log( span[0] )
       
       tr = $('<tr>') ;
       var td1 = $('<td>') ;
@@ -2058,6 +2056,10 @@ if (this.discardedTerms.length > 0){
       tr.append(td2) ;
       tr.children( 'td:first-child' ).append(a) ;
       tr.children( 'td:last-child' ).append(template) ;
+
+      $( tr ).find( 'div span' ).each(function() {
+        $( this ).text( scoreNr ) ;        
+     }) ;
 
       //console.log("trfo_L1 =", tbody[0]) ;      
       
