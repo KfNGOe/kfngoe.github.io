@@ -167,6 +167,7 @@ h6 {
     text-transform: uppercase;
 }
 
+
 a {
     color: #38382e;
     text-decoration: underline;
@@ -175,6 +176,7 @@ a {
 a:hover {
     text-decoration: none;
 }
+
 
 em {
     font-style: normal;
