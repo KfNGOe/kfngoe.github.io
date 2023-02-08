@@ -1,7 +1,21 @@
-# kfngoe.github.io
+# homepage NEW
+
+https://kfngoe.github.io/
 
 ## Editor
 
+https://kfngoe.github.io/editor/
+
+Dateneingabe für die Seiten:
+
+- Aktuelles
+- Mitglieder
+- Projekte
+- Veröffentlichungen
+
+Zugang mittels github TOKEN
+
+<br>
 ### Eingabe Veröffentlichungen
 
 ### Feld member
@@ -24,4 +38,4 @@ Im Feld member werden die Veröffentlichungen thematisch geordneten Gruppen zuge
 | Editionen und Nachschlagwerke (Nachschlagwerke) | https://dhplus.sbg.ac.at/kngoe/vocabulary#NwerkeEdit-2 |
 | Monographien                                    | https://dhplus.sbg.ac.at/kngoe/vocabulary#Mono         |
 
-ACHTUNG: Es ist möglich ein- und dieselbe Veröffentlichung mehreren Gruppen zuzuteilen. Dies geschieht, indem für jede Gruppe ein Eintrag angelegt wird, d.h. bei 2 Gruppen 2 Einträge zur selben Veröffentlichung.
+ACHTUNG: Es ist möglich ein- und dieselbe Veröffentlichung mehreren Gruppen zuzuteilen. Dies geschieht, indem für jede Gruppe ein Eintrag angelegt wird, d.h. bei 2 Gruppen 2 Einträge für dieselbe Veröffentlichung.
