@@ -1,6 +1,12 @@
 # kfngoe.github.io
 
-# Editor
+## Editor
+
+### Eingabe Veröffentlichungen
+
+### Feld member
+
+Im Feld member werden die Veröffentlichungen thematisch geordneten Gruppen zugeteilt anhand eines kontrollierten Vokabulars
 
 | Thematik                                        | Vokabular                                              |
 |-------------------------------------------------|--------------------------------------------------------|
