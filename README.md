@@ -1,1 +1,1 @@
-# Edition der Tagebücher Karl Grafen Zinzendorfs
+# homepage page outsourced
